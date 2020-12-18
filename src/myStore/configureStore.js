@@ -3,6 +3,7 @@ import myReducer from "./bugs";
 // import createStore from "redux";
 import createStore from '../myRedux/myRedux';
 
-const store = createStore(myReducer);
-
-export default store;
+export default function configureStore() {
+  const store = createStore(myReducer);
+  return store;
+};
