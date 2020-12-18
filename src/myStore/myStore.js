@@ -1,4 +1,4 @@
-import myReducer from "./myReducer";
+import myReducer from "./bugs";
 // The same as 
 // import createStore from "redux";
 import createStore from '../myRedux/myRedux';

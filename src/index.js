@@ -1,6 +1,6 @@
 // import store from "./myRedux/customStore";
 import store from "./myStore/myStore";
-import { bugAdded, bugRemoved, bugResolved } from "./myStore/actions";
+import { bugAdded, bugRemoved, bugResolved } from "./myStore/bugs";
 
 const unsubscribe1 = store.subscribe(() => {
   console.log("Store changed 1!", store.getState())
