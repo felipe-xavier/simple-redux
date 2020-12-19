@@ -7,9 +7,9 @@ The remaining files are used to apply the redux in a use case, which includes a 
 The example used to test is a Bug Tracker with a store like this:
 
 ``` javascript
-{
+[{
   id: integer,
   description : string,
   resolved : boolean
-}
+}]
 ```
