@@ -1,4 +1,3 @@
-// import store from "./myRedux/customStore";
 import configureStore from "./myStore/configureStore";
 import { bugAdded, bugRemoved, bugResolved } from "./myStore/bugs";
 
